@@ -6,19 +6,31 @@ HabitForge es una aplicación full stack para tracking de hábitos con gamificac
 
 ![Stack](https://img.shields.io/badge/FastAPI-0.111-009688?style=flat&logo=fastapi)
 ![Stack](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
+![Stack](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python)
 ![Stack](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql)
 ![Stack](https://img.shields.io/badge/Docker-compose-2496ED?style=flat&logo=docker)
 
 ---
 ## 📸 Capturas
 
-<img width="585" height="638" alt="image" src="https://github.com/user-attachments/assets/603c3c98-1419-451c-9001-18d49c571e9e" />
-
-<img width="605" height="473" alt="image" src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" />
-
-<img width="1913" height="674" alt="image" src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" />
-
-<img width="759" height="829" alt="image" src="https://github.com/user-attachments/assets/bd628497-3919-40c7-b328-0f925ed4e3f3" />
+<table>
+  <tr>
+    <td align="center"><strong>Login</strong></td>
+    <td align="center"><strong>Dashboard</strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/603c3c98-1419-451c-9001-18d49c571e9e" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" width="350"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Nuevo hábito</strong></td>
+    <td align="center"><strong>Tutorial</strong></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bd628497-3919-40c7-b328-0f925ed4e3f3" width="350"/></td>
+  </tr>
+</table>
 
 
 ---
