@@ -20,15 +20,15 @@ HabitForge es una aplicación full stack para tracking de hábitos con gamificac
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/603c3c98-1419-451c-9001-18d49c571e9e" width="350"/></td>
-    <td><img src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" width="350"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Nuevo hábito</strong></td>
     <td align="center"><strong>Tutorial</strong></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" width="350"/></td>
     <td><img src="https://github.com/user-attachments/assets/bd628497-3919-40c7-b328-0f925ed4e3f3" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" width="350"/></td>
   </tr>
 </table>
 
