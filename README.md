@@ -1,17 +1,23 @@
-# 🔥 HabitForge
+<div align="center">
 
-> Construí hábitos. Ganá XP. Subí de nivel.
+# ⚒️ HabitForge
 
-HabitForge es una aplicación full stack para tracking de hábitos con gamificación. Cada hábito que completás te da XP, construye rachas y desbloquea logros.
+**Tracker de hábitos con gamificación**
 
-![Stack](https://img.shields.io/badge/FastAPI-0.111-009688?style=flat&logo=fastapi)
-![Stack](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
-![Stack](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python)
-![Stack](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat&logo=postgresql)
-![Stack](https://img.shields.io/badge/Docker-compose-2496ED?style=flat&logo=docker)
+Construí hábitos, ganá XP y subí de nivel — cada hábito completado suma experiencia, construye rachas y desbloquea logros.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=flat&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+
+</div>
 
 ---
-## 📸 Capturas
+
+## 🖼️ Capturas
 
 <table>
   <tr>
@@ -19,48 +25,63 @@ HabitForge es una aplicación full stack para tracking de hábitos con gamificac
     <td align="center"><strong>Dashboard</strong></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/603c3c98-1419-451c-9001-18d49c571e9e" width="350"/></td>
-    <td><img src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/603c3c98-1419-451c-9001-18d49c571e9e" width="350" alt="Login"/></td>
+    <td><img src="https://github.com/user-attachments/assets/51757025-a8e5-4dce-9035-14226c335a45" width="350" alt="Dashboard"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Nuevo hábito</strong></td>
     <td align="center"><strong>Tutorial</strong></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/bd628497-3919-40c7-b328-0f925ed4e3f3" width="350"/></td>
-    <td><img src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bd628497-3919-40c7-b328-0f925ed4e3f3" width="350" alt="Nuevo hábito"/></td>
+    <td><img src="https://github.com/user-attachments/assets/90a6fe29-3e8e-40b7-850c-ce74697a89ed" width="350" alt="Tutorial"/></td>
   </tr>
 </table>
 
+## 🧩 Funcionalidades
 
----
+- 📅 **Check-in diario** — marcá tus hábitos cada día con un click
+- 🔁 **Rachas** — días consecutivos completando un hábito
+- ⭐ **Sistema de XP** — ganás más XP cuanto más larga la racha (1x → 1.5x → 2x → 3x)
+- 🪜 **Niveles** — subís de Principiante a Leyenda acumulando XP
+- 🎖️ **Logros** — se desbloquean automáticamente al alcanzar metas
+- 🖌️ **Personalización** — cada hábito tiene ícono, color y categoría propia
+- 🔑 **Autenticación** — registro y login con JWT
 
-## ✨ Features
+## 🧰 Stack técnico
 
-- ✅ **Check-in diario** — marcá tus hábitos cada día con un click
-- 🔥 **Rachas (Streaks)** — días consecutivos completando un hábito
-- ⚡ **Sistema de XP** — ganás más XP cuanto más larga la racha (1x → 1.5x → 2x → 3x)
-- 📈 **Niveles** — subís de Principiante a Leyenda acumulando XP
-- 🏆 **Logros** — se desbloquean automáticamente al alcanzar metas
-- 🎨 **Personalización** — cada hábito tiene ícono, color y categoría propia
-- 🔐 **Autenticación** — registro y login con JWT
-
----
-
-## 🛠️ Stack
-
-| Capa | Tecnología |
+| | |
 |---|---|
-| Backend | FastAPI + SQLAlchemy |
-| Base de datos | PostgreSQL 16 |
-| Autenticación | JWT + bcrypt |
-| Frontend | React 18 + Vite |
-| Estilos | Tailwind CSS v3 |
-| Contenedores | Docker + docker-compose |
+| **Backend** | Python 3.11 · FastAPI · SQLAlchemy · JWT + bcrypt · PostgreSQL 16 |
+| **Frontend** | React 18 · Vite · Tailwind CSS 3 |
+| **Infraestructura** | Docker · docker-compose |
 
----
+## 🗂️ Estructura del proyecto
 
-## 🚀 Cómo correrlo localmente
+```
+habit-tracker/
+├── backend/
+│   ├── app/
+│   │   ├── main.py        → Entry point de FastAPI
+│   │   ├── config.py      → Variables de entorno
+│   │   ├── database.py    → Conexión con SQLAlchemy
+│   │   ├── models/        → Modelos de base de datos
+│   │   ├── schemas/       → Schemas de Pydantic
+│   │   ├── routers/       → Endpoints (auth, habits, stats)
+│   │   └── services/      → Lógica de negocio y gamificación
+│   ├── requirements.txt
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── api/           → Cliente Axios
+│   │   ├── components/    → HabitCard, XPBar, Modales
+│   │   ├── context/       → AuthContext
+│   │   └── pages/         → Dashboard, AuthPage
+│   └── package.json
+└── docker-compose.yml
+```
+
+## 📦 Instalación
 
 ### Requisitos
 
@@ -74,16 +95,15 @@ git clone https://github.com/tu-usuario/habit-tracker.git
 cd habit-tracker
 ```
 
-### 2. Levantar el backend
+### 2. Backend
 
 ```bash
 docker compose up --build
 ```
 
-El backend estará disponible en `http://localhost:8000`
-La documentación de la API en `http://localhost:8000/docs`
+El backend queda disponible en `http://localhost:8000` y la documentación de la API en `http://localhost:8000/docs`.
 
-### 3. Instalar y correr el frontend
+### 3. Frontend
 
 ```bash
 cd frontend
@@ -91,38 +111,9 @@ npm install
 npm run dev
 ```
 
-El frontend estará disponible en `http://localhost:5173`
+La app queda disponible en `http://localhost:5173`.
 
----
-
-## 📁 Estructura del proyecto
-
-```
-habit-tracker/
-├── backend/
-│   ├── app/
-│   │   ├── main.py           # Entry point FastAPI
-│   │   ├── config.py         # Variables de entorno
-│   │   ├── database.py       # Conexión SQLAlchemy
-│   │   ├── models/           # Modelos de base de datos
-│   │   ├── schemas/          # Schemas Pydantic
-│   │   ├── routers/          # Endpoints (auth, habits, stats)
-│   │   └── services/         # Lógica de negocio y gamificación
-│   ├── requirements.txt
-│   └── Dockerfile
-├── frontend/
-│   ├── src/
-│   │   ├── api/              # Cliente Axios
-│   │   ├── components/       # HabitCard, XPBar, Modales
-│   │   ├── context/          # AuthContext
-│   │   └── pages/            # Dashboard, AuthPage
-│   └── package.json
-└── docker-compose.yml
-```
-
----
-
-## 🔌 API Endpoints
+## 🔗 API Endpoints
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -138,23 +129,27 @@ habit-tracker/
 | GET | `/stats/dashboard` | Métricas generales |
 | GET | `/stats/achievements` | Todos los logros |
 
----
-
-## 🏆 Sistema de logros
+## 🏅 Sistema de logros
 
 | Logro | Condición | XP |
 |---|---|---|
-| 🌱 Primer paso | Primer check-in | 50 XP |
-| 🔥 En racha | 3 días seguidos | 75 XP |
-| ⚡ Una semana | 7 días seguidos | 150 XP |
-| 💎 Un mes imparable | 30 días seguidos | 500 XP |
-| 🎯 Multi-hábito | Crear 3 hábitos | 100 XP |
-| ✅ Consistente | 10 check-ins totales | 100 XP |
-| 🏅 Dedicado | 50 check-ins totales | 200 XP |
-| 🏆 Centurión | 100 check-ins totales | 500 XP |
+| 🐣 Primer paso | Primer check-in | 50 XP |
+| 🔁 En racha | 3 días seguidos | 75 XP |
+| 📆 Una semana | 7 días seguidos | 150 XP |
+| 🚀 Un mes imparable | 30 días seguidos | 500 XP |
+| 🗃️ Multi-hábito | Crear 3 hábitos | 100 XP |
+| 📈 Consistente | 10 check-ins totales | 100 XP |
+| 💪 Dedicado | 50 check-ins totales | 200 XP |
+| 👑 Centurión | 100 check-ins totales | 500 XP |
 
----
+## 📝 Notas
 
-## 📄 Licencia
+- El multiplicador de XP crece con la racha: **1x → 1.5x → 2x → 3x**.
+- Los hábitos eliminados se **archivan**, no se borran de la base de datos.
+- Proyecto bajo licencia **MIT** — libre para usar y modificar.
 
-MIT
+<div align="center">
+
+Hecho con ☕ por [Santiago Marchetti Ariza](https://github.com/smarchettiariza)
+
+</div>
