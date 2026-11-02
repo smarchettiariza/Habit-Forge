@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚒️ HabitForge
+# HabitForge
 
 **Tracker de hábitos con gamificación**
 
@@ -17,7 +17,7 @@ Construí hábitos, ganá XP y subí de nivel — cada hábito completado suma e
 
 ---
 
-## 🖼️ Capturas
+## Capturas
 
 <table>
   <tr>
@@ -38,17 +38,17 @@ Construí hábitos, ganá XP y subí de nivel — cada hábito completado suma e
   </tr>
 </table>
 
-## 🧩 Funcionalidades
+## Funcionalidades
 
-- 📅 **Check-in diario** — marcá tus hábitos cada día con un click
-- 🔁 **Rachas** — días consecutivos completando un hábito
-- ⭐ **Sistema de XP** — ganás más XP cuanto más larga la racha (1x → 1.5x → 2x → 3x)
-- 🪜 **Niveles** — subís de Principiante a Leyenda acumulando XP
-- 🎖️ **Logros** — se desbloquean automáticamente al alcanzar metas
-- 🖌️ **Personalización** — cada hábito tiene ícono, color y categoría propia
-- 🔑 **Autenticación** — registro y login con JWT
+- **Check-in diario** — marcá tus hábitos cada día con un click
+- **Rachas** — días consecutivos completando un hábito
+- **Sistema de XP** — ganás más XP cuanto más larga la racha (1x → 1.5x → 2x → 3x)
+- **Niveles** — subís de Principiante a Leyenda acumulando XP
+- **Logros** — se desbloquean automáticamente al alcanzar metas
+- **Personalización** — cada hábito tiene ícono, color y categoría propia
+- **Autenticación** — registro y login con JWT
 
-## 🧰 Stack técnico
+## Stack técnico
 
 | | |
 |---|---|
@@ -56,7 +56,7 @@ Construí hábitos, ganá XP y subí de nivel — cada hábito completado suma e
 | **Frontend** | React 18 · Vite · Tailwind CSS 3 |
 | **Infraestructura** | Docker · docker-compose |
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 habit-tracker/
@@ -81,7 +81,7 @@ habit-tracker/
 └── docker-compose.yml
 ```
 
-## 📦 Instalación
+## Instalación
 
 ### Requisitos
 
@@ -113,7 +113,7 @@ npm run dev
 
 La app queda disponible en `http://localhost:5173`.
 
-## 🔗 API Endpoints
+## API Endpoints
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -129,20 +129,20 @@ La app queda disponible en `http://localhost:5173`.
 | GET | `/stats/dashboard` | Métricas generales |
 | GET | `/stats/achievements` | Todos los logros |
 
-## 🏅 Sistema de logros
+## Sistema de logros
 
 | Logro | Condición | XP |
 |---|---|---|
-| 🐣 Primer paso | Primer check-in | 50 XP |
-| 🔁 En racha | 3 días seguidos | 75 XP |
-| 📆 Una semana | 7 días seguidos | 150 XP |
-| 🚀 Un mes imparable | 30 días seguidos | 500 XP |
-| 🗃️ Multi-hábito | Crear 3 hábitos | 100 XP |
-| 📈 Consistente | 10 check-ins totales | 100 XP |
-| 💪 Dedicado | 50 check-ins totales | 200 XP |
-| 👑 Centurión | 100 check-ins totales | 500 XP |
+| Primer paso | Primer check-in | 50 XP |
+| En racha | 3 días seguidos | 75 XP |
+| Una semana | 7 días seguidos | 150 XP |
+| Un mes imparable | 30 días seguidos | 500 XP |
+| Multi-hábito | Crear 3 hábitos | 100 XP |
+| Consistente | 10 check-ins totales | 100 XP |
+| Dedicado | 50 check-ins totales | 200 XP |
+| Centurión | 100 check-ins totales | 500 XP |
 
-## 📝 Notas
+## Notas
 
 - El multiplicador de XP crece con la racha: **1x → 1.5x → 2x → 3x**.
 - Los hábitos eliminados se **archivan**, no se borran de la base de datos.
@@ -150,6 +150,6 @@ La app queda disponible en `http://localhost:5173`.
 
 <div align="center">
 
-Hecho con ☕ por [Santiago Marchetti Ariza](https://github.com/smarchettiariza)
+Proyecto Academico.
 
 </div>
